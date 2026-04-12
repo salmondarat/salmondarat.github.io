@@ -1,4 +1,4 @@
-# Hi 👋, I'm salmondarat
+# Hi My name is salmondarat
 
 ### Professional Graphic Designer 
 
