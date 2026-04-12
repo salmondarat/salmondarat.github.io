@@ -2,9 +2,6 @@
 
 ### Professional Graphic Designer 
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=salmondarat&label=Profile views&color=0e75b6&style=flat" alt="salmondarat" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=salmondarat" alt="salmondarat" /></a> </p>
 
 - 🔭 I'm currently working on **SaaS Projects to help my daily work and other people with same passion**
 
