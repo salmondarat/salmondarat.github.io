@@ -33,27 +33,30 @@
     }
 
     body {
-      background-color: var(--bg-outer);
-      background-image: 
-        linear-gradient(to right, #dcdcdc 1px, transparent 1px),
-        linear-gradient(to bottom, #dcdcdc 1px, transparent 1px);
-      background-size: 64px 64px;
+      background-color: var(--bg-main);
       color: var(--text-main);
       font-family: var(--font-sans);
-      padding: 2rem 1rem;
+      padding: 0;
       min-height: 100vh;
     }
 
-    /* Main Tablet/Frame Container */
+    /* Full-Screen Layout Container */
     .viewport-frame {
-      max-width: 1180px;
-      margin: 0 auto;
+      width: 100%;
+      min-height: 100vh;
+      margin: 0;
       background-color: var(--bg-main);
-      border: 6px solid var(--border-dark);
-      border-radius: 28px;
-      overflow: hidden;
-      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.14);
+      border: none;
+      border-radius: 0;
+      overflow-x: hidden;
+      box-shadow: none;
       position: relative;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .projects-section {
+      flex: 1;
     }
 
     /* Technical Grid Utilities */
@@ -741,13 +744,6 @@
     }
 
     @media (max-width: 640px) {
-      body {
-        padding: 0.5rem;
-      }
-      .viewport-frame {
-        border-width: 4px;
-        border-radius: 16px;
-      }
       .featured-body {
         grid-template-columns: 1fr;
         gap: 1rem;
